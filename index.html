@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link rel="stylesheet" href="styles.css">
  </head>
- <body>
+ <body >
     
 
+   <h2>Add a New Game Review</h2>
+
+<form id="game-form">
+  <input type="text" id="game-title" placeholder="Enter game title" required />
+  <input type="number" id="game-genre" placeholder="Enter genre ID (number)" required />
+  <button type="submit" class="button-green">Submit Game</button>
+</form>
+<!-- to start the json server ------ > json-server --watch db.json -->
 <!-- button to grab the gabs from the api using fetch -->
-    <button onclick="onFetchGamesClick()">Fetch Games</button>
+    <button type="button" onclick="onFetchGamesClick()" class="button-purple">Fetch Games</button>
+    <button type="button" onclick="onUpdateGameClick()" class="button-purple">Update Game Review</button>
+    <button type="button" onclick="onDeleteGameClick()" class="button-purple">Delete Game Review</button>
+   
     <div id="games-container"></div>
+    
     <script src="./test.js"></script>
  </body>
  </html>

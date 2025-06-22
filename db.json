@@ -1,23 +1,58 @@
-// json server with the data im pulling, adding, and deleting
 {
   "genre": [
-    { "id": 1, "title": "Shooter"},
-    { "id": 2, "title": "Strategy"},
-    { "id": 3, "title": "Singeplayer"}
+    {
+      "id": 1,
+      "title": "Shooter"
+    },
+    {
+      "id": 2,
+      "title": "Strategy"
+    },
+    {
+      "id": 3,
+      "title": "Singeplayer"
+    }
   ],
-
   "games": [
-    { "id": 1, "title": "Valorant", "genreId": 1 },
-    { "id": 2, "title": "Csgo", "genreId": 2 },
-    { "id": 3, "title": "ApexLegends", "genreId": 3 },
-    { "id": 4, "title": "LeageOfLegends", "genreId": 4 },
-    { "id": 5, "title": "Skyrim", "genreId": 5 },
-    { "id": 6, "title": "The Witcher 3", "genreId":6 },
-    { "id": 7, "title": "Supreme Commander 2", "genreId": 7 },
-    { "id": 8, "title": "Chess", "genreId": 8 }
-  ],
-  "reviews": [
-    { "id": 1, "movieId": 1, "content": "Amazing!" },
-    { "id": 2, "movieId": 2, "content": "Heartwarming." }
+    {
+      "id": 1,
+      "title": "Valorant",
+      "genreId": 1
+    },
+    {
+      "id": 2,
+      "title": "Csgo",
+      "genreId": 2
+    },
+    {
+      "id": 3,
+      "title": "ApexLegends",
+      "genreId": 3
+    },
+    {
+      "id": 4,
+      "title": "LeageOfLegends",
+      "genreId": 4
+    },
+    {
+      "id": 5,
+      "title": "Skyrim",
+      "genreId": 5
+    },
+    {
+      "id": 6,
+      "title": "The Witcher 3",
+      "genreId": 6
+    },
+    {
+      "id": 7,
+      "title": "Supreme Commander 2",
+      "genreId": 7
+    },
+    {
+      "id": 8,
+      "title": "Chess",
+      "genreId": 8
+    }
   ]
 }
